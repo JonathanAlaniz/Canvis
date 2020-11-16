@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.header-login {
+    float: right;
+    margin: 5px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  font-size: 1.25em;
+  text-align: center;
+  padding: 14px ;
+  text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+h1, h2, h3, h4, h6 {
+    color: white;
+}
+.title {
+    display: flex;
+    justify-content: center;
+}
+body {
+    background-color: black;
+}
+.underlined {
+    text-decoration: underline; 
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.promo {
+    color: white;
+    float: right; 
+    margin: 10px;
+    padding: 5px;
+    font-size: 1em;
+}
+
+.video-container {
+position: relative;
+padding-bottom: 30.25%;
+padding-top: 1px;
+height: 0;
+overflow: hidden;
+display: flex;
+justify-content: flex-end;
+border: 1px solid white;
+color: white;
+
+}
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 50%;
+height: 100%;
+display:flex;
+
+}
+
+.lyrics {
+padding: 10px;
+left: 50%;
+position: absolute;
+width: 25%;
+height: 100%;
+border: 1px solid white;
+overflow: auto;
+}
+.interview {
+padding: 10px;
+left: 75%;
+position: absolute;
+width: 25%;
+height: 100%;
+border: 1px solid white;
+overflow: auto;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+}
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  align-items: center;
+  border: 1px solid white;
+}
+.venue_pic_container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    max-width: 100%; 
+    height: auto;
+}
+.venue_pic_item {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.about_us_container {
+    width: 80%;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    left: 10px;
+}
+.about_us_item {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 1em;
+    font-family: verdana, helvetica;
+    text-indent: 25px;
+    
+}
+.signupsuccess {
+    color: white;
+}
+.section-default {
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+  .contact_us_link {
+      display: none;
+  }
+  .navbar {
+  list-style-type: none;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+.drop-btn {
+    top: 1px;
+    float: left;
+}
+.dropdown {
+    float: right;
+}
+.dropdown-content {
+    float: left;
+    left: 20px;
+}
+.regular-menu {
+    display: none;
+}
+.header-signup {
+    float: left;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  font-size: 1em;
+  text-align: center;
+  padding: 5px ;
+  text-decoration: none;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+.video-container {
+position: relative;
+padding-bottom: 80.25%;
+padding-top: 1px;
+height: 0;
+overflow: hidden;
+display: flex;
+justify-content: flex-end;
+border: 1px solid white;
+color: white;
+
+}
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 70%;
+display:flex;
+
+}
+.break {
+    display: flex;
+    flex-basis: 100%;
+}
+.lyrics {
+top: 70%;
+left: 0;
+height: 30%;
+width: 50%;
+border: 1px solid white;
+overflow: auto;
+}
+.interview {
+left: 50%;
+height: 30%;
+width: 50%;
+top: 70%;
+}
+.row {
+    display: flex;
+    border: 1px solid white;
+}
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  align-items: center;
+  border: 1px solid white;
+}
+.artist-name {
+    font-size: 4vw;
+}
+.song-title {
+    font-size: 3vw;
+}
+  .venue_pic_container {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      
+  }
+  .venue_pic_item img{
+      display: flex;
+      justify-content: center;
+      width: 75%;
+  }
+  .promo {
+    color: white;
+    float: right; 
+    margin: 10px;
+    padding: 5px;
+    font-size: .75em;
+  }
+}
+@media only screen and (min-width: 600px) {
+  /* For desktop: */
+.dropdown {
+    display: none;
+}
+.dropdown-content {
+    display: none;
+}
+}
