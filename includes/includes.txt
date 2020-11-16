@@ -1,0 +1,1 @@
+This folder is responsible for most of the backend involving the site. Utilizes PHP functions
